@@ -1,0 +1,11 @@
+app: gimlet-sample-app-494a
+env: lenient-haze
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.57.0
+values:
+  gitCloneUrl: https://github.com/jkpedo/gimlet-sample-app.git
+  gitRepository: jkpedo/gimlet-sample-app
+  gitSha: '{{ .SHA }}'
